@@ -1,0 +1,155 @@
+{
+  "schema_version": "2.0",
+  "source": "Measured across 167 curated Eastern Classical Cinema & Environment references (149 stills + 18 clips)",
+  "global_luminance_law": {
+    "shadows_below_0_28_pct": [38.0, 65.0],
+    "midtones_0_28_to_0_72_pct": [35.0, 54.0],
+    "highlights_above_0_72_pct": [0.2, 10.5],
+    "mean_saturation_pct": [22.0, 50.0]
+  },
+  "moods": {
+    "tianshuibi": {
+      "name_zh": "天水碧 · 青黛烟雨",
+      "emotion": "孤寂、清冷、湿润、烟雨朦胧、三远山水留白",
+      "target_shadow_pct": [42.0, 64.0],
+      "target_highlight_pct": [0.0, 4.5],
+      "target_sat_pct": [16.0, 38.0],
+      "require_dark_border": true,
+      "sun_kelvin": 6800,
+      "accent_lantern_kelvin": 2700,
+      "halation_strength": 0.24,
+      "swatches": {
+        "deep_shadow": { "hex": "#0d191a", "srgb": [0.051, 0.098, 0.102], "linear": [0.0040, 0.0097, 0.0103] },
+        "mid_shadow":  { "hex": "#233c45", "srgb": [0.137, 0.235, 0.271], "linear": [0.0168, 0.0452, 0.0595] },
+        "mist_mid":    { "hex": "#516e7d", "srgb": [0.318, 0.431, 0.490], "linear": [0.0823, 0.1559, 0.2051] },
+        "soft_sky":    { "hex": "#97a6a6", "srgb": [0.592, 0.651, 0.651], "linear": [0.3095, 0.3813, 0.3813] },
+        "rim_glow":    { "hex": "#b8ccd6", "srgb": [0.720, 0.798, 0.839], "linear": [0.4764, 0.6005, 0.6724] },
+        "warm_accent": { "hex": "#e88b42", "srgb": [0.910, 0.545, 0.259], "linear": [0.8070, 0.2582, 0.0545] }
+      }
+    },
+    "hupojin": {
+      "name_zh": "琥珀金 · 浓墨金秋",
+      "emotion": "厚重、炽烈、古雅、油画般深沉暗部与通透秋叶",
+      "target_shadow_pct": [38.0, 62.0],
+      "target_highlight_pct": [0.5, 9.5],
+      "target_sat_pct": [30.0, 56.0],
+      "require_dark_border": true,
+      "sun_kelvin": 3600,
+      "accent_lantern_kelvin": 2800,
+      "halation_strength": 0.28,
+      "swatches": {
+        "deep_shadow":   { "hex": "#1c130a", "srgb": [0.110, 0.075, 0.039], "linear": [0.0116, 0.0065, 0.0030] },
+        "bark_shadow":   { "hex": "#513421", "srgb": [0.318, 0.204, 0.129], "linear": [0.0823, 0.0343, 0.0152] },
+        "vermilion_red": { "hex": "#b82b18", "srgb": [0.722, 0.169, 0.094], "linear": [0.4793, 0.0242, 0.0091] },
+        "burnt_amber":   { "hex": "#d66a1e", "srgb": [0.839, 0.416, 0.118], "linear": [0.6724, 0.1441, 0.0130] },
+        "ginkgo_gold":   { "hex": "#e2cc80", "srgb": [0.886, 0.800, 0.502], "linear": [0.7605, 0.6038, 0.2159] },
+        "sky_cool_mute": { "hex": "#6c879e", "srgb": [0.424, 0.529, 0.620], "linear": [0.1500, 0.2423, 0.3419] }
+      }
+    },
+    "senyou": {
+      "name_zh": "森幽绿 · 丁达尔清夏",
+      "emotion": "静谧、林荫潮气、生机、晨光劈开幽暗密林",
+      "target_shadow_pct": [34.0, 56.0],
+      "target_highlight_pct": [1.5, 10.5],
+      "target_sat_pct": [24.0, 48.0],
+      "require_dark_border": true,
+      "sun_kelvin": 4600,
+      "accent_lantern_kelvin": 3200,
+      "halation_strength": 0.30,
+      "swatches": {
+        "deep_shadow": { "hex": "#0f110e", "srgb": [0.059, 0.067, 0.055], "linear": [0.0048, 0.0056, 0.0044] },
+        "pine_shadow": { "hex": "#28362a", "srgb": [0.157, 0.212, 0.165], "linear": [0.0212, 0.0369, 0.0232] },
+        "moss_mid":    { "hex": "#6d6d4b", "srgb": [0.427, 0.427, 0.294], "linear": [0.1529, 0.1529, 0.0704] },
+        "sun_mist":    { "hex": "#a49d87", "srgb": [0.643, 0.616, 0.529], "linear": [0.3712, 0.3372, 0.2423] },
+        "godray_hi":   { "hex": "#e2d4cc", "srgb": [0.886, 0.831, 0.800], "linear": [0.7605, 0.6584, 0.6038] }
+      }
+    },
+    "muyun": {
+      "name_zh": "暮云灰 · 素墨留白 / 高级白模",
+      "emotion": "极简、高冷、雕塑感、留白沉寂、等待色彩唤醒",
+      "target_shadow_pct": [36.0, 62.0],
+      "target_highlight_pct": [0.5, 9.5],
+      "target_sat_pct": [0.0, 14.0],
+      "require_dark_border": false,
+      "sun_kelvin": 6200,
+      "accent_lantern_kelvin": 4500,
+      "halation_strength": 0.12,
+      "swatches": {
+        "deep_ink":    { "hex": "#131512", "srgb": [0.075, 0.082, 0.071], "linear": [0.0065, 0.0075, 0.0060] },
+        "stone_dark":  { "hex": "#373733", "srgb": [0.216, 0.216, 0.200], "linear": [0.0382, 0.0382, 0.0331] },
+        "clay_mid":    { "hex": "#7b7a77", "srgb": [0.482, 0.478, 0.467], "linear": [0.1981, 0.1946, 0.1845] },
+        "mist_light":  { "hex": "#a69e9b", "srgb": [0.651, 0.620, 0.608], "linear": [0.3813, 0.3419, 0.3278] },
+        "snow_accent": { "hex": "#e5e3df", "srgb": [0.898, 0.890, 0.875], "linear": [0.7835, 0.7682, 0.7379] }
+      }
+    },
+    "qijing_lacquer": {
+      "name_zh": "漆镜幽秋 · 琉璃光院式极暗室镜影",
+      "emotion": "极致禅意、深黑木构静谧、抛光黑漆案几对称倒映满窗秋色",
+      "target_shadow_pct": [54.0, 82.0],
+      "target_highlight_pct": [0.0, 4.5],
+      "target_sat_pct": [32.0, 58.0],
+      "require_dark_border": true,
+      "sun_kelvin": 3800,
+      "accent_lantern_kelvin": 2700,
+      "halation_strength": 0.22,
+      "swatches": {
+        "lacquer_black": { "hex": "#170d06", "srgb": [0.090, 0.051, 0.024], "linear": [0.0086, 0.0040, 0.0018] },
+        "timber_dark":   { "hex": "#493423", "srgb": [0.286, 0.204, 0.137], "linear": [0.0666, 0.0343, 0.0168] },
+        "shoji_shadow":  { "hex": "#7d614a", "srgb": [0.490, 0.380, 0.290], "linear": [0.2051, 0.1195, 0.0685] },
+        "warm_paper":    { "hex": "#b59776", "srgb": [0.710, 0.592, 0.463], "linear": [0.4621, 0.3095, 0.1812] },
+        "window_glow":   { "hex": "#d6cab8", "srgb": [0.839, 0.792, 0.722], "linear": [0.6724, 0.5906, 0.4793] }
+      }
+    },
+    "ember_indigo": {
+      "name_zh": "烬焰暮蓝 · 戏剧孤火与星夜枝影",
+      "emotion": "宿命感、深蓝暮夜与孤火/红烛/金叶的强烈戏剧冷暖撕裂",
+      "target_shadow_pct": [46.0, 72.0],
+      "target_highlight_pct": [0.2, 6.0],
+      "target_sat_pct": [34.0, 58.0],
+      "require_dark_border": true,
+      "sun_kelvin": 8500,
+      "accent_lantern_kelvin": 2200,
+      "halation_strength": 0.34,
+      "swatches": {
+        "night_abyss":  { "hex": "#11140c", "srgb": [0.067, 0.076, 0.047], "linear": [0.0056, 0.0068, 0.0037] },
+        "cobalt_dusk":  { "hex": "#293a5d", "srgb": [0.161, 0.227, 0.365], "linear": [0.0222, 0.0423, 0.1095] },
+        "slate_cloud":  { "hex": "#626371", "srgb": [0.384, 0.388, 0.443], "linear": [0.1221, 0.1248, 0.1651] },
+        "ember_gold":   { "hex": "#e0cfa5", "srgb": [0.878, 0.812, 0.647], "linear": [0.7454, 0.6240, 0.3763] },
+        "flame_core":   { "hex": "#ff7b1c", "srgb": [1.000, 0.482, 0.110], "linear": [1.0000, 0.1981, 0.0116] }
+      }
+    },
+    "jushan_monolith": {
+      "name_zh": "巨山微屋 · 苍灰神性尺度",
+      "emotion": "苍茫、宏大、神性孤寂、极端自然巨物衬托微小人间烟火",
+      "target_shadow_pct": [20.0, 52.0],
+      "target_highlight_pct": [1.0, 15.0],
+      "target_sat_pct": [14.0, 36.0],
+      "require_dark_border": false,
+      "sun_kelvin": 6000,
+      "accent_lantern_kelvin": 3000,
+      "halation_strength": 0.18,
+      "swatches": {
+        "cliff_shadow":  { "hex": "#0f1316", "srgb": [0.059, 0.075, 0.086], "linear": [0.0048, 0.0065, 0.0080] },
+        "pine_wall":     { "hex": "#2e433f", "srgb": [0.180, 0.263, 0.247], "linear": [0.0273, 0.0561, 0.0497] },
+        "granite_mid":   { "hex": "#5e6f69", "srgb": [0.369, 0.435, 0.412], "linear": [0.1119, 0.1590, 0.1413] },
+        "alpine_haze":   { "hex": "#92a7b3", "srgb": [0.573, 0.655, 0.702], "linear": [0.2874, 0.3864, 0.4508] },
+        "cloud_peak":    { "hex": "#c8d0d9", "srgb": [0.784, 0.816, 0.851], "linear": [0.5776, 0.6308, 0.6939] }
+      }
+    }
+  },
+  "progressive_mist_ramp": [
+    { "stage": 1, "name": "清朗倒影", "blender_density": 0.002, "ue5_fog_density": 0.005, "desc": "锐利秋色水面镜影，仅远山微朦" },
+    { "stage": 2, "name": "水面浮岚", "blender_density": 0.009, "ue5_fog_density": 0.018, "desc": "低层白岚贴水生起，树脚开始虚化" },
+    { "stage": 3, "name": "晨雾半掩", "blender_density": 0.022, "ue5_fog_density": 0.042, "desc": "远林完全隐入青白晨光，仅中景红枫透色" },
+    { "stage": 4, "name": "水墨化无", "blender_density": 0.045, "ue5_fog_density": 0.085, "desc": "近乎单色水墨留白，天地融为淡青灰" }
+  ],
+  "film_grading_presets": [
+    { "id": "van_gogh_almond", "ref": "梵高《盛开的杏花》1890", "exposure": 0.25, "highlights": -0.10, "shadows": -0.15, "temp_shift": -0.30, "tint_shift": -0.30, "soft_glow": 0.80, "use_case": "仰拍古树枝干与青碧天空梦幻透光" },
+    { "id": "in_the_heat_of_sun", "ref": "姜文《阳光灿烂的日子》1994", "exposure": 0.25, "highlights": -0.10, "shadows": -0.10, "temp_shift": 0.20, "tint_shift": -0.10, "soft_glow": 0.80, "use_case": "炽烈焦糖暖黄逆光剪影与强黑柔晕染" },
+    { "id": "the_crossing", "ref": "《过春天》2018", "exposure": 0.0, "highlights": -0.17, "shadows": 0.0, "temp_shift": -0.27, "tint_shift": -0.05, "soft_glow": 0.50, "use_case": "潮湿清冷蓝青胶片与玻璃/水面冷光" },
+    { "id": "raise_red_lantern", "ref": "张艺谋《大红灯笼高高挂》1991", "exposure": 0.20, "highlights": -0.19, "shadows": 0.21, "temp_shift": 0.15, "tint_shift": -0.25, "soft_glow": 0.50, "use_case": "肃穆大院低角度斜阳长影与厚重朱墙" },
+    { "id": "journey_to_west", "ref": "《宇宙探索编辑部》2021", "exposure": -0.20, "highlights": -0.16, "shadows": -0.10, "temp_shift": 0.35, "tint_shift": 0.20, "soft_glow": 0.30, "use_case": "压暗曝光的苍凉冷青灰纪实诗意" },
+    { "id": "double_life_veronique", "ref": "基耶斯洛夫斯基《两生花》1991", "exposure": 0.25, "highlights": -0.10, "shadows": -0.10, "temp_shift": 0.28, "tint_shift": -0.10, "soft_glow": 0.80, "use_case": "经典琥珀黄绿胶片：沉重深褐暗部配油画金黄天光" },
+    { "id": "hello_mr_tree", "ref": "《Hello! 树先生》2011", "exposure": 0.0, "highlights": -0.16, "shadows": -0.12, "temp_shift": 0.15, "tint_shift": -0.29, "soft_glow": 0.40, "use_case": "迷离冷绿青胶片与高反差草木" }
+  ]
+}

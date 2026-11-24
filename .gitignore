@@ -1,0 +1,10 @@
+# Local reference moodboards (third-party photography collages stay local-only)
+resources/moodboard_*.jpg
+resources/moodboard_*.png
+
+# Python & OS clutter
+__pycache__/
+*.py[cod]
+.DS_Store
+Thumbs.db
+*.tmp
